@@ -2133,9 +2133,8 @@ ${bodyM} ${prefix}+18 1/0
 
 *${prefix}simsimi 1*
 
-
-*aaaaaaaaaaaaaaaaaaaaaaaaaa*
-	${prefix}
+*Para que el bot entre a tu grupo, usa el siguiente comando:*
+	${prefix}entrabot *(Link del grupo)*
 	
 🚧 *El siguiente comando es para crashear los grupos!! este comando es muy peligroso :) solo administradores pueden usarlo.* 🚧
 
@@ -5541,7 +5540,7 @@ await help.sleep(3000)
 await samu330.groupLeave(from)
 })
 break
-case 'entrabxt':
+case 'entrabot':
 linkgp = args.join(' ')
 if (!linkgp) return reply('Y el link del grupo... onta!?')
 samunum = '5219984907794@swahtsapp.net'		
